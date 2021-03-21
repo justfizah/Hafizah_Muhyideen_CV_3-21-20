@@ -1,0 +1,272 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  padding: 35px;
+  /* flex-direction: column; */
+}
+
+.main_header {
+  margin-left: 300px;
+  color: rgb(25, 155, 216);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.main_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  width: 100px;
+  height: 100px;
+  font-weight: 600;
+  border-radius: 100%;
+  padding: 25px;
+  margin-bottom: 20px;
+  background-color: rgb(25, 155, 216);
+}
+
+.main_content h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.main_content_list {
+  list-style: none;
+}
+
+div ul > li {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #efefef;
+  color: #2121eb;
+  margin-right: 15px;
+  width: 50px;
+  height: 46px;
+}
+
+.content {
+  justify-self: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main_button {
+  padding: 15px 70px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 7px;
+  background-color: #61eeb8;
+  margin: 20px 0;
+  border: none;
+  width: 100%;
+}
+
+.footer {
+  font-size: 12px;
+  margin: 15px 0;
+  opacity: 0.5;
+}
+
+.footer_icon {
+  margin-right: 5px;
+}
+
+/* first page */
+
+.header {
+  display: flex;
+  /* position: relative; */
+  margin-top: 30px;
+  padding-top: 5px;
+  padding-left: 35px;
+  padding-right: 35px;
+  justify-content: space-between !important;
+}
+
+.header-icon {
+  font-size: 15px;
+  margin-right: 15px;
+}
+
+.header-name {
+  font-size: 15px;
+  color: blue;
+}
+
+.header-close {
+  color: blue;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+/* .first-page-container {
+  position: relative;
+  bottom: 40px;
+  top: 4px;
+} */
+
+.first-page-title {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.first-page-title > h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.first-page-content {
+  display: flex;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-top: 15px;
+}
+
+.first-page-content-icon {
+  color: blue;
+  margin-right: 15px;
+}
+
+.first-page-content-detail > p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.first-page-content-detail > span {
+  display: block;
+  font-size: 16px;
+}
+
+.second-page > input[type="text"] {
+  display: block;
+  padding: 5px 0;
+  font-size: 16px;
+  color: blue;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  font-weight: 500;
+  line-height: 3px;
+  width: 100%;
+}
+
+.second-page > button,
+.seven-page > button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: blue;
+  border: none;
+  border-radius: 7px;
+  margin: 10px 0;
+  background-color: #efefef;
+}
+
+.second-page-container {
+  /* position: relative;
+  bottom: 200px;
+  top: 4px; */
+  /* position: absolute;
+  top: 25px; */
+  /* margin-bottom: 50px; */
+}
+
+/* main-footer */
+
+.main-footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  /* left: 0; */
+  justify-content: space-between;
+  padding: 24px 35px;
+  background-color: blue;
+  color: #fff;
+  width: 100%;
+}
+
+.main-footer_page-number {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.main-footer_icon {
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: #fff;
+  color: black;
+}
+
+.main-footer_icon:first-child {
+  margin-right: 8px;
+}
+
+/* pages */
+.wrapper {
+  position: relative;
+}
+
+.main-pages {
+  top: 25px;
+}
+
+/* fifth page */
+
+.fifth-page-p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* seven page */
+.seven-page input[type="text"] {
+  padding: 5px 0;
+  font-size: 16px;
+  color: blue;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  font-weight: 500;
+  line-height: 3px;
+  width: 70%;
+  margin-right: 20px;
+}
+
+.seven-page > div {
+  margin-bottom: 10px;
+}
+
+.seven-page-container {
+  margin-bottom: 50px;
+}
+
+.seven-page {
+  margin-bottom: 30px;
+}
